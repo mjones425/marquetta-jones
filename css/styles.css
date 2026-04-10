@@ -82,13 +82,18 @@ body {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(320px, 420px);
+  grid-template-columns: minmax(0, 1fr) 255px;
   align-items: center;
   gap: 3rem;
 }
 
+.hero-image {
+  text-align: center;
+}
+
 .hero-image img {
   width: 100%;
+  max-width: 255px;
   height: auto;
   border-radius: 28px;
   object-fit: cover;
