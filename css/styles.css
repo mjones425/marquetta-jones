@@ -226,6 +226,11 @@ h1 {
     justify-content: center;
   }
 
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
   .history-card,
   .contact-section {
     padding: 1.5rem 0;
