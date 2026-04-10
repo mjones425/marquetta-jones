@@ -80,11 +80,8 @@ body {
   padding: 4rem 0;
 }
 
-.hero-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 255px;
-  align-items: center;
-  gap: 3rem;
+.hero-copy {
+  text-align: center;
 }
 
 .hero-image {
@@ -121,10 +118,11 @@ h1 {
 }
 
 .lead {
-  max-width: 55ch;
-  margin: 0 0 2rem;
+  max-width: 65ch;
+  margin: 0 auto 2rem;
   color: rgba(245,237,240,0.82);
   font-size: 1.1rem;
+  text-align: center;
 }
 
 .button,
@@ -229,11 +227,6 @@ h1 {
   .site-nav {
     flex-wrap: wrap;
     justify-content: center;
-  }
-
-  .hero-grid {
-    grid-template-columns: 1fr;
-    gap: 2rem;
   }
 
   .history-card,
